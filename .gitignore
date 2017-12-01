@@ -1,0 +1,8 @@
+# Compiled class file
+*.class
+
+# Build directory
+out
+
+# Misc
+.DS_Store
