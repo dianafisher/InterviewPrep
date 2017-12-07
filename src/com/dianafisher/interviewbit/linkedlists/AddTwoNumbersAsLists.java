@@ -17,7 +17,43 @@ package com.dianafisher.interviewbit.linkedlists;
 
 public class AddTwoNumbersAsLists {
 
-    public static ListNode addTwoNumbers(ListNode a, ListNode b) {
+    private static ListNode addTwoNumbers(ListNode a, ListNode b) {
+        ListNode node;
+        ListNode prev = null;
+        ListNode first = null;
+
+        int carry = 0;
+        int sum = 0;
+
+        while (a != null || b != null || carry != 0) {
+            node = new ListNode(0);
+            sum = carry;
+
+            if (first == null)
+                first = node;
+
+            if (prev != null)
+                prev.next = node;
+
+            if (a != null) {
+                sum += a.val;
+                a = a.next;
+            }
+
+            if (b != null) {
+                sum += b.val;
+                b = b.next;
+            }
+
+            node.val = sum % 10;
+            sum /= 10;
+            carry = sum;
+            prev = node;
+        }
+        return first;
+    }
+
+    public static ListNode addTwoNumbers_old(ListNode a, ListNode b) {
         ListNode currA = a;
         ListNode currB = b;
 
