@@ -9,10 +9,24 @@ public class ListNode {
     public ListNode next;
     ListNode(int x) { val = x; next = null; }
 
+//    @Override
+//    public String toString() {
+//        StringBuilder builder = new StringBuilder();
+//        builder.append(this.val);
+//        return builder.toString();
+//    }
+
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(this.val);
+        ListNode current = this;
+        while (current != null) {
+            builder.append(current.val);
+            if (current.next != null) {
+                builder.append(" -> ");
+            }
+            current = current.next;
+        }
         return builder.toString();
     }
 }
