@@ -1,7 +1,6 @@
-package com.dianafisher.interviewprep.week2.test;
+package com.dianafisher.interviewbit.linkedlists;
 
-import com.dianafisher.interviewbit.linkedlists.ListNode;
-import com.dianafisher.interviewbit.linkedlists.ListUtils;
+import com.dianafisher.interviewbit.data_structures.ListNode;
 
 public class DeleteNodesGreaterThanX {
 
@@ -22,9 +21,8 @@ public class DeleteNodesGreaterThanX {
             }
         }
 
-        if (list.val > x) return null;
 
-        return list;
+        return dummmyHead.next;
     }
 
     public static void main(String[] args) {

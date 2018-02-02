@@ -37,6 +37,8 @@ Post Order: 12, 13, 11, 4, 10, 9, 5, 2, 6, 7, 3, 1
 *  Last element in Post Order array is the root of the tree.
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

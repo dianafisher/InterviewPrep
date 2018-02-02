@@ -16,7 +16,7 @@ Example :
 max depth = 2.
 * */
 
-import java.util.ArrayList;
+import com.dianafisher.interviewbit.data_structures.TreeNode;
 
 public class MaxDepthOfBinaryTree {
 

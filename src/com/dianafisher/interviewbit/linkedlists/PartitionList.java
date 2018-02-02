@@ -15,6 +15,8 @@ current = 4->3->2->5->2
 
 * */
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 public class PartitionList {
 
     public ListNode partition(ListNode a, int b) {

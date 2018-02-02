@@ -10,6 +10,8 @@ return 5->4->3->2->1->NULL.
 *
 * */
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 public class ReverseLinkedList {
 
     public ListNode reverseList(ListNode a) {

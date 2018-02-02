@@ -1,7 +1,7 @@
 package com.dianafisher.interviewbit.trees.unique_binary_search_trees;
 
 import com.dianafisher.interviewbit.graphs.LevelOrder;
-import com.dianafisher.interviewbit.trees.TreeNode;
+import com.dianafisher.interviewbit.data_structures.TreeNode;
 
 import java.util.ArrayList;
 

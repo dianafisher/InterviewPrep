@@ -28,6 +28,8 @@ The flattened tree should look like:
 Note that the left child of all nodes should be NULL.
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 import java.util.Stack;
 
 public class FlattenBinaryTreeToLinkedList {

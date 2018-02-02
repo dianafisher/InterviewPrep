@@ -26,7 +26,6 @@ public class Solution {
         if (A == null) return 0;
         if (A.size() == 0) return 0;
 
-
         int N = A.size();
 
         int[] costs = new int[N];

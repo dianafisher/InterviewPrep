@@ -1,4 +1,4 @@
-package com.dianafisher.interviewbit.linkedlists;
+package com.dianafisher.interviewbit.data_structures;
 
 /**
  * Created by dianafisher on 12/4/17.
@@ -7,7 +7,7 @@ public class ListNode {
 
     public int val;
     public ListNode next;
-    ListNode(int x) { val = x; next = null; }
+    public ListNode(int x) { val = x; next = null; }
 
 //    @Override
 //    public String toString() {

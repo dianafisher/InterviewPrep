@@ -14,6 +14,8 @@ The merged list should be :
 4 -> 5 -> 8 -> 11 -> 15 -> 20
 * */
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode a, ListNode b) {
 

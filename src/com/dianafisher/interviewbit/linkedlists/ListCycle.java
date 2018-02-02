@@ -16,6 +16,8 @@ Input :
 Return the node corresponding to node 3.
 * */
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 public class ListCycle {
 
     public ListNode detectCycle(ListNode a) {

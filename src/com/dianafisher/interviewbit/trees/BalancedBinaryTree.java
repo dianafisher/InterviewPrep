@@ -29,6 +29,8 @@ Return : False or 0
          Difference = 2 > 1.
  * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 public class BalancedBinaryTree {
 
     public int isBalanced(TreeNode a) {

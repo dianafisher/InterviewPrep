@@ -19,7 +19,7 @@ Given 1->1->2->3->3, return 1->2->3.
 * Traverse the list and remove successive nodes with the same value as the current node.
 * */
 
-import java.util.HashSet;
+import com.dianafisher.interviewbit.data_structures.ListNode;
 
 public class RemoveDuplicatesSortedList {
 

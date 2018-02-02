@@ -11,6 +11,8 @@ Both the left and right subtrees must also be binary search trees.
 
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 public class ValidBinarySearchTree {
 
     private int isSubtreeLesser(TreeNode root, int value) {

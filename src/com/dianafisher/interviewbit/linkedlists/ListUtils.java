@@ -1,5 +1,7 @@
 package com.dianafisher.interviewbit.linkedlists;
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 public class ListUtils {
 
     public static void printList(ListNode a) {

@@ -20,6 +20,8 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 Return 0 / 1 ( 0 for false, 1 for true ) for this problem
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 public class PathSum2 {
 
     public int hasPathSum(TreeNode a, int b) {

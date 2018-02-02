@@ -1,5 +1,7 @@
 package com.dianafisher.interviewbit.trees;
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;

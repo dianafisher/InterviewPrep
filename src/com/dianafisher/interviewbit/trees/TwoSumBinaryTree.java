@@ -34,6 +34,8 @@ K = 40
 Return: 0
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 import java.util.HashSet;
 
 public class TwoSumBinaryTree {

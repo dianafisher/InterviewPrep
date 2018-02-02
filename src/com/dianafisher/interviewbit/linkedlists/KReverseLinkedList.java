@@ -16,6 +16,8 @@ Try to solve the problem using constant extra space.
 
 * */
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

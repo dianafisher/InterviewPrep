@@ -23,6 +23,8 @@ invert and return
 *
 * */
 
+import com.dianafisher.interviewbit.data_structures.TreeNode;
+
 import java.util.ArrayList;
 
 public class InvertBinaryTree {

@@ -1,5 +1,7 @@
 package com.dianafisher.interviewbit.linkedlists;
 
+import com.dianafisher.interviewbit.data_structures.ListNode;
+
 /**
  * Created by dianafisher on 12/4/17.
  *
